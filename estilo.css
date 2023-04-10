@@ -116,3 +116,94 @@ nav {
     text-transform: uppercase;
     box-shadow: 0 8px 32px rgba(97, 31, 31, 0.46);
 }
+
+/* ################################footer ###################################*/
+
+footer {
+    background: rgb(70, 70, 70);
+    padding: 20px 0 /*50 0 20 0 */;
+    padding-top: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+
+}
+
+.partFooter {
+    width: 22%;
+    text-align: center;
+}
+
+.partFooter img {
+    width: 60%;
+}
+
+.partFooter h4 {
+    
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    background-color: #d03d3d;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid double #d03d3d;
+}
+
+.contact {
+    margin: 10px;
+    display: block;
+    text-align:left;
+    color: #fff;
+}
+
+.contact > i {
+    float: left;
+    margin-right: 10px;
+}
+
+.contact > p {
+    font-weight: 500;
+}
+
+.partFooter > a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.partFooter > a:hover {
+    background-color: #d03d3d;
+    transition: all ease-in-out .4s;
+
+}
+
+.social-media > a > i {
+    color: #fff;
+    display:inline-block;
+    font-size: 25px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    line-height: 36px;
+    text-align: center;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+    margin-right: 8px;
+}
+
+.social-media > a > i:hover {
+    background-color: #d03d3d;
+}
+
+.partFooter img {
+    width: 40%;
+}
